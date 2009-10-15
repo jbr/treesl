@@ -4,6 +4,16 @@ TreeSL is my effort to define a flexible domain specific language (DSL).  I thin
 
 TreeSL will try a number of alternative matches for a given node until it finds a matching alternative.  This is incredibly inefficient, but the goal is flexibility, not on-the-fly DSL speed.
 
+h2. Installation
+
+<pre><code>#install gemcutter if you haven't
+  gem install gemcutter
+  gem tumble
+  
+  #install treesl
+  gem install treesl
+</code></pre>
+
 h2. Example
 
 <pre><code>
