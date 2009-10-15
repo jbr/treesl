@@ -1,0 +1,9 @@
+h1. TreeSL
+
+TreeSL is my effort to define a flexible domain specific language (DSL).  I think it's similar to a recursive descent parser.
+
+TreeSL will try a number of alternative matches for a given node until it finds a matching alternative.  This is incredibly inefficient, but the goal is flexibility, not on-the-fly DSL speed.
+
+h2. Copyright
+
+Copyright (c) 2009 Jacob Rothstein. See LICENSE for details.
