@@ -22,9 +22,12 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.textile",
      "Rakefile",
+     "VERSION",
+     "lib/example.rb",
      "lib/treesl.rb",
      "test/test_helper.rb",
-     "test/treesl_test.rb"
+     "test/treesl_test.rb",
+     "treesl.gemspec"
   ]
   s.homepage = %q{http://github.com/jbr/treesl}
   s.rdoc_options = ["--charset=UTF-8"]
