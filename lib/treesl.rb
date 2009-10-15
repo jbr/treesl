@@ -20,7 +20,7 @@ class TreeSL
   def match(string, matcher = nil)
     matcher ||= root_node
     string.strip!
-    # pp [string,matcher]
+    # p [string,matcher]
     result = if matcher.is_a? Array
       matcher.each do |alternative|
         dup_string = string.dup
